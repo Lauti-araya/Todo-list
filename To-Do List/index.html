@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__title">
+            <h1 class="title">NovaTech Task</h1>
+            <p class="subtitle">ORGANIZA TU DIA</p>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__header">
+            <h2 class="main__title">Lista de tareas</h2>
+            <button class="btn-filter">Filtrar</button>
+        </div>
+        <ul class="list">
+        </ul>
+        <div class="add__task">
+            <input type="text" placeholder="Agrega una tarea" class="new__task">
+            <button class="btn-add">Agregar</button>
+        </div>
+        <div class="modal__filter"> 
+                <button class="closed__filter">X</button>
+                <h2 class="filter__title">Filtro de tareas</h2>
+                <ul class="filters">
+                    <li class="filter filter__pending">Pendientes</li>
+                    <li class="filter filter__completed" >Completadas</li>
+                    <li class="filter filter__all">Todas</li>
+                </ul>
+        </div>
+    </main>
+    <div class="counter">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
