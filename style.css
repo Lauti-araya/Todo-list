@@ -299,6 +299,22 @@ button {
     }
 }
 
+@media screen and (min-width: 300px) {
+    .main {
+        max-width: 350px;
+        margin-top: 20px;
+        max-height: 100px;
+    }
+    .counter {
+        max-width: 300px;
+        justify-content: space-evenly;
+        font-size: 10px;
+    }
+    .modal__filter {
+        max-width: 90%;
+        max-height: 95%;
+    }
+}
 
 @media screen and (min-width: 600px) {
     .main {
