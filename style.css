@@ -309,7 +309,7 @@ button {
         max-height: 100px;
     }
     .counter {
-        max-width: 300px;
+        margin-top: 15px;
         justify-content: space-evenly;
         font-size: 10px;
     }
