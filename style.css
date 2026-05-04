@@ -300,6 +300,9 @@ button {
 }
 
 @media screen and (min-width: 300px) {
+    .header {
+        padding: 10px;
+    }
     .main {
         max-width: 350px;
         margin-top: 20px;
